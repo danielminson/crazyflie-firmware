@@ -13,7 +13,6 @@ PwmOut motor1(MOTOR1);
 PwmOut motor2(MOTOR2);
 PwmOut motor3(MOTOR3);
 PwmOut motor4(MOTOR4);
-Timer ligando;
 
 // Main program
 int main()
@@ -25,8 +24,8 @@ int main()
     led_verde_dir =1;
     led_verde_esq =1;
     // Blink blue LED indicating inicialization (5 seconds)
-    ligando.start();
-    for (int i=0; i<9;i++){
+
+    for (int i=0; i<10;i++){
         led_azul_esq = 1;
         wait(0.5);
         led_azul_esq = 0;
