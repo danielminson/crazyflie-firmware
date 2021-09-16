@@ -10,6 +10,8 @@ const float g = 9.81;       // m/s^2
 const float a2 = 1.16*pow(10,-7);
 const float a1 = 4.488*pow(10,-12);
 
+const float kl = 1.984*pow(10,-8); 
+const float kd = 1.825*pow(10,-10); 
 
 // Quadcopter dimensions
 const float m = 30.0e-3;    // kg
