@@ -12,6 +12,24 @@ Mixer::Mixer() : motor_1(MOTOR1), motor_2(MOTOR2), motor_3(MOTOR3), motor_4(MOTO
 }
 
 void Mixer:: arm(){
+    motor_1.write(0.2);
+    wait(0.2);
+    motor_1=0.0;
+
+    motor_2.write(0.2);
+    wait(0.2);
+    motor_2=0.0;
+
+    motor_3.write(0.2);
+    wait(0.2);
+    motor_3=0.0;
+    
+    motor_4.write(0.2);
+    wait(0.2);
+    motor_4=0.0;
+
+    wait(0.5);
+
     for(int i=0;i<=2;i++){
         led_verm_dir=0;
         led_verm_esq=0;
