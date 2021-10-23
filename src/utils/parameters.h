@@ -20,5 +20,10 @@ const float I_yy = 16.0e-6; // kg.m^2
 const float I_zz = 29.0e-6; // kg.m^2
 const float l = 33.0e-3;    // m
 
+const float dt = 0.02;
+
+const float omega_c = 1.4;
+
+const float alpha=omega_c*dt/(1+omega_c*dt);
 
 #endif
