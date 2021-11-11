@@ -16,11 +16,15 @@
 #include "drivers/bmi088.h"     // IMU sensor
 
 // Flow deck v2 hardware abstraction layer
-// #include "drivers/vl53l1x.h"    // Range sensor
-// #include "drivers/pmw3901.h"    // Optical flow sensor
+ #include "drivers/vl53l1x.h"    // Range sensor
+ #include "drivers/pmw3901.h"    // Optical flow sensor
 
 #include "modules/mixer.h"
 
 #include "modules/attitude_estimator.h"
+#include "modules/attitude_controller.h"
+#include "modules/vertical_estimator.h"
+#include "modules/vertical_controller.h"
+
 
 #endif

@@ -10,4 +10,4 @@
 //#include "programs/labs/lab01.h"
 //#include "programs/labs/lab02.h"
 //#include "programs/labs/lab06.h"
-#include "programs/labs/lab07.h"
+#include "programs/labs/lab10.h"
