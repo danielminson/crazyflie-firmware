@@ -41,7 +41,7 @@ const float kp_att_psi = wn_psi*wn_psi;
 const float kd_att_psi = 2.0*zetta*wn_psi;
 
 // Ganho estimador vertical
-const float w_c = 10;
+const float w_c = 10.0;
 const float zetta_vert = sqrt(2.0)/2.0;
 const float l1 = w_c*w_c;
 const float l2 = w_c*2*zetta_vert;
