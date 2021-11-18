@@ -52,4 +52,9 @@ const float wn_ver = 4.0/(zetta*Ts_ver);
 const float kp_ver = wn_ver*wn_ver;
 const float kd_ver = 2.0*zetta*wn_ver;
 
+const float W=420;
+const float gamma = 42*pi/180;
+const float sigma=2*tan(gamma/2)/(W*dt);
+const float l_hor=10;
+
 #endif
