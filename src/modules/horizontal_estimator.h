@@ -15,8 +15,8 @@ void init () ;
 // Predict horizontal positions and velocities from model
 void predict ( float phi , float theta );
 // Correct horizontal velocities with measurements
-void correct ( float phi , float theta , float p, float q, float z) ;
-// Horizontal positions (m) and velocities (m/s) estimations
+void correct ( float phi , float theta , float p, float q, float z);
+
 float x, y, u, v;
 private :
 // Flow sensor object

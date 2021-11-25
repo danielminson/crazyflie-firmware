@@ -24,7 +24,7 @@ const float dt = 0.002;
 const float dt_range = 0.05;
 
 // Ganho estimador atitude
-const float omega_c = 1.4;
+const float omega_c = 1;
 const float alpha=omega_c*dt/(1.0+omega_c*dt);
 
 // Ganho controleador atitude
@@ -35,7 +35,7 @@ const float wn = 4.0/(zetta*Ts);
 const float kp_att = wn*wn;
 const float kd_att = 2.0*zetta*wn;
 
-const float Ts_psi = 0.6;
+const float Ts_psi = 0.6;//
 const float wn_psi = 4.0/(zetta*Ts_psi);
 const float kp_att_psi = wn_psi*wn_psi;
 const float kd_att_psi = 2.0*zetta*wn_psi;
@@ -55,6 +55,6 @@ const float kd_ver = 2.0*zetta*wn_ver;
 const float W=420;
 const float gamma = 42*pi/180;
 const float sigma=2*tan(gamma/2)/(W*dt);
-const float l_hor=10;
+const float l_hor=50;
 
 #endif
